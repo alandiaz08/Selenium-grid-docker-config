@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="BlogSuite" parallel="tests">
+ 
+<test name="Chrome Test">
+<parameter name="Port" value="5566"/>
+    <classes>
+      <class name="driver.Selenium_MultiBrowser_Test"/>
+      
+    </classes>
+  </test> 
+  
+  <test name="Firefox Test">
+<parameter name="Port" value="5569"/>
+    <classes>
+      <class name="driver.Selenium_MultiBrowser_Test"/>
+      
+    </classes>
+  </test> 
+  
+  
+  
+  
+  </suite>

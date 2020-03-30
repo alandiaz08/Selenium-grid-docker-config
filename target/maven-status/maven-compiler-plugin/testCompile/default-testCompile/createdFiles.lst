@@ -1,0 +1,5 @@
+pages\RegisterPage.class
+helpers\Helpers.class
+driver\WebDriverManager.class
+pages\HomePage.class
+test\RegisterTest.class
